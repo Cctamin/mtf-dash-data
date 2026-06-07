@@ -1,0 +1,1296 @@
+{
+  "generated_at": 1781390328.768827,
+  "hold_hours": 24.0,
+  "slippage_bps": 5.0,
+  "target_pct": 0.1,
+  "stop_pct": -0.05,
+  "exit_model": "target/stop-first, else 24h close",
+  "last_bar_time": 1781388000.0,
+  "ledger_count": 361,
+  "pending_count": 96,
+  "aggregate": {
+    "ma_cross": {
+      "trades": 84,
+      "wins": 43,
+      "losses": 41,
+      "win_rate": 51.19,
+      "avg_return": -0.503884,
+      "expectancy": -0.503884,
+      "sum_return": -42.326294
+    },
+    "macd": {
+      "trades": 84,
+      "wins": 51,
+      "losses": 33,
+      "win_rate": 60.71,
+      "avg_return": 0.286695,
+      "expectancy": 0.286695,
+      "sum_return": 24.082392
+    },
+    "obv": {
+      "trades": 84,
+      "wins": 58,
+      "losses": 26,
+      "win_rate": 69.05,
+      "avg_return": 0.670619,
+      "expectancy": 0.670619,
+      "sum_return": 56.332022
+    },
+    "similarity": {
+      "trades": 4,
+      "wins": 3,
+      "losses": 1,
+      "win_rate": 75.0,
+      "avg_return": 1.278994,
+      "expectancy": 1.278994,
+      "sum_return": 5.115975
+    },
+    "stochastic": {
+      "trades": 27,
+      "wins": 4,
+      "losses": 23,
+      "win_rate": 14.81,
+      "avg_return": -0.382932,
+      "expectancy": -0.382932,
+      "sum_return": -10.339172
+    },
+    "bollinger": {
+      "trades": 6,
+      "wins": 3,
+      "losses": 3,
+      "win_rate": 50.0,
+      "avg_return": 0.63809,
+      "expectancy": 0.63809,
+      "sum_return": 3.828538
+    },
+    "adx": {
+      "trades": 70,
+      "wins": 42,
+      "losses": 28,
+      "win_rate": 60.0,
+      "avg_return": -0.08703,
+      "expectancy": -0.08703,
+      "sum_return": -6.09207
+    },
+    "rsi": {
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "win_rate": 100.0,
+      "avg_return": 1.710888,
+      "expectancy": 1.710888,
+      "sum_return": 3.421775
+    }
+  },
+  "indicators": {
+    "adx": {
+      "trades": 70,
+      "wins": 42,
+      "losses": 28,
+      "win_rate": 60.0,
+      "expectancy": -0.08703,
+      "sum_return": -6.09207,
+      "streak": 7,
+      "current": 1,
+      "trades_detail": [
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.2841,
+          "reason": "timeout",
+          "exit_time": 1781384400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.078,
+          "reason": "timeout",
+          "exit_time": 1781380800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.6984,
+          "reason": "timeout",
+          "exit_time": 1781377200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.1215,
+          "reason": "timeout",
+          "exit_time": 1781373600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0161,
+          "reason": "timeout",
+          "exit_time": 1781370000.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.0634,
+          "reason": "timeout",
+          "exit_time": 1781366400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3147,
+          "reason": "timeout",
+          "exit_time": 1781362800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.4904,
+          "reason": "timeout",
+          "exit_time": 1781359200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.0601,
+          "reason": "timeout",
+          "exit_time": 1781355600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3241,
+          "reason": "timeout",
+          "exit_time": 1781352000.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.2416,
+          "reason": "timeout",
+          "exit_time": 1781348400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0081,
+          "reason": "timeout",
+          "exit_time": 1781344800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.5388,
+          "reason": "timeout",
+          "exit_time": 1781341200.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.3061,
+          "reason": "timeout",
+          "exit_time": 1781337600.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.3328,
+          "reason": "timeout",
+          "exit_time": 1781334000.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3976,
+          "reason": "timeout",
+          "exit_time": 1781330400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.2724,
+          "reason": "timeout",
+          "exit_time": 1781326800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0503,
+          "reason": "timeout",
+          "exit_time": 1781323200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0608,
+          "reason": "timeout",
+          "exit_time": 1781319600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.6548,
+          "reason": "timeout",
+          "exit_time": 1781316000.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0764,
+          "reason": "timeout",
+          "exit_time": 1781312400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0893,
+          "reason": "timeout",
+          "exit_time": 1781308800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0062,
+          "reason": "timeout",
+          "exit_time": 1781305200.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0942,
+          "reason": "timeout",
+          "exit_time": 1781301600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0701,
+          "reason": "timeout",
+          "exit_time": 1781298000.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0436,
+          "reason": "timeout",
+          "exit_time": 1781294400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3651,
+          "reason": "timeout",
+          "exit_time": 1781290800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3609,
+          "reason": "timeout",
+          "exit_time": 1781287200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 2.2686,
+          "reason": "timeout",
+          "exit_time": 1781283600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.3379,
+          "reason": "timeout",
+          "exit_time": 1781280000.0
+        }
+      ]
+    },
+    "bollinger": {
+      "trades": 6,
+      "wins": 3,
+      "losses": 3,
+      "win_rate": 50.0,
+      "expectancy": 0.63809,
+      "sum_return": 3.828538,
+      "streak": -2,
+      "current": 0,
+      "trades_detail": [
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.4147,
+          "reason": "timeout",
+          "exit_time": 1781362800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.2095,
+          "reason": "timeout",
+          "exit_time": 1781193600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.3064,
+          "reason": "timeout",
+          "exit_time": 1781110800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 2.4252,
+          "reason": "timeout",
+          "exit_time": 1781107200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.9966,
+          "reason": "timeout",
+          "exit_time": 1781103600.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.2754,
+          "reason": "timeout",
+          "exit_time": 1781100000.0
+        }
+      ]
+    },
+    "ma_cross": {
+      "trades": 84,
+      "wins": 43,
+      "losses": 41,
+      "win_rate": 51.19,
+      "expectancy": -0.503884,
+      "sum_return": -42.326294,
+      "streak": 12,
+      "current": 1,
+      "trades_detail": [
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.5296,
+          "reason": "timeout",
+          "exit_time": 1781388000.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.2841,
+          "reason": "timeout",
+          "exit_time": 1781384400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.078,
+          "reason": "timeout",
+          "exit_time": 1781380800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.6984,
+          "reason": "timeout",
+          "exit_time": 1781377200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.1215,
+          "reason": "timeout",
+          "exit_time": 1781373600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0161,
+          "reason": "timeout",
+          "exit_time": 1781370000.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.0634,
+          "reason": "timeout",
+          "exit_time": 1781366400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3147,
+          "reason": "timeout",
+          "exit_time": 1781362800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.3904,
+          "reason": "timeout",
+          "exit_time": 1781359200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.0601,
+          "reason": "timeout",
+          "exit_time": 1781355600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3241,
+          "reason": "timeout",
+          "exit_time": 1781352000.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.2416,
+          "reason": "timeout",
+          "exit_time": 1781348400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0081,
+          "reason": "timeout",
+          "exit_time": 1781344800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.5388,
+          "reason": "timeout",
+          "exit_time": 1781341200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.2061,
+          "reason": "timeout",
+          "exit_time": 1781337600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.2328,
+          "reason": "timeout",
+          "exit_time": 1781334000.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3976,
+          "reason": "timeout",
+          "exit_time": 1781330400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.2724,
+          "reason": "timeout",
+          "exit_time": 1781326800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0503,
+          "reason": "timeout",
+          "exit_time": 1781323200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0608,
+          "reason": "timeout",
+          "exit_time": 1781319600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.6548,
+          "reason": "timeout",
+          "exit_time": 1781316000.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0764,
+          "reason": "timeout",
+          "exit_time": 1781312400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0893,
+          "reason": "timeout",
+          "exit_time": 1781308800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0062,
+          "reason": "timeout",
+          "exit_time": 1781305200.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0942,
+          "reason": "timeout",
+          "exit_time": 1781301600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0701,
+          "reason": "timeout",
+          "exit_time": 1781298000.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0436,
+          "reason": "timeout",
+          "exit_time": 1781294400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3651,
+          "reason": "timeout",
+          "exit_time": 1781290800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3609,
+          "reason": "timeout",
+          "exit_time": 1781287200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 2.2686,
+          "reason": "timeout",
+          "exit_time": 1781283600.0
+        }
+      ]
+    },
+    "macd": {
+      "trades": 84,
+      "wins": 51,
+      "losses": 33,
+      "win_rate": 60.71,
+      "expectancy": 0.286695,
+      "sum_return": 24.082392,
+      "streak": -4,
+      "current": 1,
+      "trades_detail": [
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.6296,
+          "reason": "timeout",
+          "exit_time": 1781388000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.3841,
+          "reason": "timeout",
+          "exit_time": 1781384400.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.178,
+          "reason": "timeout",
+          "exit_time": 1781380800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.7984,
+          "reason": "timeout",
+          "exit_time": 1781377200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.1215,
+          "reason": "timeout",
+          "exit_time": 1781373600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0161,
+          "reason": "timeout",
+          "exit_time": 1781370000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.1634,
+          "reason": "timeout",
+          "exit_time": 1781366400.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.4147,
+          "reason": "timeout",
+          "exit_time": 1781362800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.4904,
+          "reason": "timeout",
+          "exit_time": 1781359200.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.1601,
+          "reason": "timeout",
+          "exit_time": 1781355600.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.4241,
+          "reason": "timeout",
+          "exit_time": 1781352000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.3416,
+          "reason": "timeout",
+          "exit_time": 1781348400.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.0919,
+          "reason": "timeout",
+          "exit_time": 1781344800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.6388,
+          "reason": "timeout",
+          "exit_time": 1781341200.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.3061,
+          "reason": "timeout",
+          "exit_time": 1781337600.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.3328,
+          "reason": "timeout",
+          "exit_time": 1781334000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.4976,
+          "reason": "timeout",
+          "exit_time": 1781330400.0
+        },
+        {
+          "side": "short",
+          "win": true,
+          "return_pct": 0.1724,
+          "reason": "timeout",
+          "exit_time": 1781326800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.1503,
+          "reason": "timeout",
+          "exit_time": 1781323200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0608,
+          "reason": "timeout",
+          "exit_time": 1781319600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.6548,
+          "reason": "timeout",
+          "exit_time": 1781316000.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0764,
+          "reason": "timeout",
+          "exit_time": 1781312400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0893,
+          "reason": "timeout",
+          "exit_time": 1781308800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0062,
+          "reason": "timeout",
+          "exit_time": 1781305200.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0942,
+          "reason": "timeout",
+          "exit_time": 1781301600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0701,
+          "reason": "timeout",
+          "exit_time": 1781298000.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0436,
+          "reason": "timeout",
+          "exit_time": 1781294400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3651,
+          "reason": "timeout",
+          "exit_time": 1781290800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3609,
+          "reason": "timeout",
+          "exit_time": 1781287200.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -2.3686,
+          "reason": "timeout",
+          "exit_time": 1781283600.0
+        }
+      ]
+    },
+    "obv": {
+      "trades": 84,
+      "wins": 58,
+      "losses": 26,
+      "win_rate": 69.05,
+      "expectancy": 0.670619,
+      "sum_return": 56.332022,
+      "streak": -7,
+      "current": 1,
+      "trades_detail": [
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.6296,
+          "reason": "timeout",
+          "exit_time": 1781388000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.3841,
+          "reason": "timeout",
+          "exit_time": 1781384400.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.178,
+          "reason": "timeout",
+          "exit_time": 1781380800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.7984,
+          "reason": "timeout",
+          "exit_time": 1781377200.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.2215,
+          "reason": "timeout",
+          "exit_time": 1781373600.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.1161,
+          "reason": "timeout",
+          "exit_time": 1781370000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.1634,
+          "reason": "timeout",
+          "exit_time": 1781366400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3147,
+          "reason": "timeout",
+          "exit_time": 1781362800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.4904,
+          "reason": "timeout",
+          "exit_time": 1781359200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.0601,
+          "reason": "timeout",
+          "exit_time": 1781355600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3241,
+          "reason": "timeout",
+          "exit_time": 1781352000.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.2416,
+          "reason": "timeout",
+          "exit_time": 1781348400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0081,
+          "reason": "timeout",
+          "exit_time": 1781344800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.5388,
+          "reason": "timeout",
+          "exit_time": 1781341200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.2061,
+          "reason": "timeout",
+          "exit_time": 1781337600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 1.2328,
+          "reason": "timeout",
+          "exit_time": 1781334000.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3976,
+          "reason": "timeout",
+          "exit_time": 1781330400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.2724,
+          "reason": "timeout",
+          "exit_time": 1781326800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0503,
+          "reason": "timeout",
+          "exit_time": 1781323200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0608,
+          "reason": "timeout",
+          "exit_time": 1781319600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.6548,
+          "reason": "timeout",
+          "exit_time": 1781316000.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0764,
+          "reason": "timeout",
+          "exit_time": 1781312400.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0893,
+          "reason": "timeout",
+          "exit_time": 1781308800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0062,
+          "reason": "timeout",
+          "exit_time": 1781305200.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0942,
+          "reason": "timeout",
+          "exit_time": 1781301600.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.0701,
+          "reason": "timeout",
+          "exit_time": 1781298000.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.0436,
+          "reason": "timeout",
+          "exit_time": 1781294400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3651,
+          "reason": "timeout",
+          "exit_time": 1781290800.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.3609,
+          "reason": "timeout",
+          "exit_time": 1781287200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 2.2686,
+          "reason": "timeout",
+          "exit_time": 1781283600.0
+        }
+      ]
+    },
+    "rsi": {
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "win_rate": 100.0,
+      "expectancy": 1.710888,
+      "sum_return": 3.421775,
+      "streak": 2,
+      "current": 0,
+      "trades_detail": [
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 2.4252,
+          "reason": "timeout",
+          "exit_time": 1781107200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.9966,
+          "reason": "timeout",
+          "exit_time": 1781103600.0
+        }
+      ]
+    },
+    "stochastic": {
+      "trades": 27,
+      "wins": 4,
+      "losses": 23,
+      "win_rate": 14.81,
+      "expectancy": -0.382932,
+      "sum_return": -10.339172,
+      "streak": -3,
+      "current": 0,
+      "trades_detail": [
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.4147,
+          "reason": "timeout",
+          "exit_time": 1781362800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.4241,
+          "reason": "timeout",
+          "exit_time": 1781352000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.0919,
+          "reason": "timeout",
+          "exit_time": 1781344800.0
+        },
+        {
+          "side": "short",
+          "win": true,
+          "return_pct": 0.1724,
+          "reason": "timeout",
+          "exit_time": 1781326800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.0236,
+          "reason": "timeout",
+          "exit_time": 1781312400.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.0107,
+          "reason": "timeout",
+          "exit_time": 1781308800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.0564,
+          "reason": "timeout",
+          "exit_time": 1781294400.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.4609,
+          "reason": "timeout",
+          "exit_time": 1781287200.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.2594,
+          "reason": "timeout",
+          "exit_time": 1781272800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.7636,
+          "reason": "timeout",
+          "exit_time": 1781269200.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.0671,
+          "reason": "timeout",
+          "exit_time": 1781265600.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.9229,
+          "reason": "timeout",
+          "exit_time": 1781262000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.3687,
+          "reason": "timeout",
+          "exit_time": 1781258400.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.8535,
+          "reason": "timeout",
+          "exit_time": 1781254800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.6486,
+          "reason": "timeout",
+          "exit_time": 1781251200.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.3893,
+          "reason": "timeout",
+          "exit_time": 1781247600.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.2087,
+          "reason": "timeout",
+          "exit_time": 1781244000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.5887,
+          "reason": "timeout",
+          "exit_time": 1781240400.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.3751,
+          "reason": "timeout",
+          "exit_time": 1781236800.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.2095,
+          "reason": "timeout",
+          "exit_time": 1781193600.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -0.8734,
+          "reason": "timeout",
+          "exit_time": 1781190000.0
+        },
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.5446,
+          "reason": "timeout",
+          "exit_time": 1781186400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 2.6837,
+          "reason": "timeout",
+          "exit_time": 1781168400.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 2.4252,
+          "reason": "timeout",
+          "exit_time": 1781107200.0
+        },
+        {
+          "side": "long",
+          "win": true,
+          "return_pct": 0.9966,
+          "reason": "timeout",
+          "exit_time": 1781103600.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -0.2754,
+          "reason": "timeout",
+          "exit_time": 1781100000.0
+        },
+        {
+          "side": "long",
+          "win": false,
+          "return_pct": -1.7863,
+          "reason": "timeout",
+          "exit_time": 1781096400.0
+        }
+      ]
+    },
+    "similarity": {
+      "trades": 4,
+      "wins": 3,
+      "losses": 1,
+      "win_rate": 75.0,
+      "expectancy": 1.278994,
+      "sum_return": 5.115975,
+      "streak": -1,
+      "current": 0,
+      "trades_detail": [
+        {
+          "side": "short",
+          "win": false,
+          "return_pct": -1.4379,
+          "reason": "timeout",
+          "exit_time": 1781280000.0
+        },
+        {
+          "side": "short",
+          "win": true,
+          "return_pct": 1.6863,
+          "reason": "timeout",
+          "exit_time": 1781096400.0
+        },
+        {
+          "side": "short",
+          "win": true,
+          "return_pct": 2.6558,
+          "reason": "timeout",
+          "exit_time": 1781092800.0
+        },
+        {
+          "side": "short",
+          "win": true,
+          "return_pct": 2.2118,
+          "reason": "timeout",
+          "exit_time": 1781089200.0
+        }
+      ]
+    }
+  }
+}
