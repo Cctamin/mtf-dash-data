@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-11-28T13:35:36.231788+00:00",
+  "asof_day": "2026-11-27",
+  "close": 59923.1,
+  "sma20": 65234.55,
+  "sma50": 74344.79,
+  "close_vs_sma20_pct": -8.142,
+  "sma20_vs_sma50_pct": -12.254,
+  "days_close_above_sma20": 0,
+  "gap_trend_5d": [
+    -10.0275,
+    -10.776,
+    -11.2196,
+    -11.7003,
+    -12.254
+  ],
+  "label": "bearish",
+  "neutral_type": "n/a",
+  "est_days_to_cross": null
+}
