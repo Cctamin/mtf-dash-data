@@ -1,0 +1,128 @@
+{
+  "assets": [
+    {
+      "label": "현금",
+      "pct": 6.13,
+      "color": "#5b5bd6",
+      "topic": "현금"
+    },
+    {
+      "label": "비트코인",
+      "pct": 76.29,
+      "color": "#ef9f2b",
+      "topic": "코인"
+    },
+    {
+      "label": "이더리움",
+      "pct": 17.58,
+      "color": "#8b5cf6",
+      "topic": "코인"
+    },
+    {
+      "label": "주식",
+      "pct": 0.0,
+      "color": "#0ca678",
+      "topic": "주식"
+    },
+    {
+      "label": "금",
+      "pct": 0.0,
+      "color": "#eab308",
+      "topic": "금"
+    }
+  ],
+  "topics": [
+    {
+      "topic": "코인",
+      "pct": 93.87,
+      "color": "#f7931a",
+      "members": [
+        {
+          "label": "비트코인",
+          "pct": 76.29,
+          "color": "#ef9f2b"
+        },
+        {
+          "label": "이더리움",
+          "pct": 17.58,
+          "color": "#8b5cf6"
+        }
+      ]
+    },
+    {
+      "topic": "현금",
+      "pct": 6.13,
+      "color": "#5b5bd6",
+      "members": [
+        {
+          "label": "현금",
+          "pct": 6.13,
+          "color": "#5b5bd6"
+        }
+      ]
+    },
+    {
+      "topic": "주식",
+      "pct": 0.0,
+      "color": "#0ca678",
+      "members": [
+        {
+          "label": "주식",
+          "pct": 0.0,
+          "color": "#0ca678"
+        }
+      ]
+    },
+    {
+      "topic": "금",
+      "pct": 0.0,
+      "color": "#eab308",
+      "members": [
+        {
+          "label": "금",
+          "pct": 0.0,
+          "color": "#eab308"
+        }
+      ]
+    }
+  ],
+  "balance": {
+    "band_pp": 5.0,
+    "rows": [
+      {
+        "topic": "코인",
+        "target": 80.0,
+        "current": 93.87,
+        "drift_pp": 13.87,
+        "status": "over",
+        "color": "#f7931a"
+      },
+      {
+        "topic": "현금",
+        "target": 12.0,
+        "current": 6.13,
+        "drift_pp": -5.87,
+        "status": "under",
+        "color": "#5b5bd6"
+      },
+      {
+        "topic": "금",
+        "target": 8.0,
+        "current": 0.0,
+        "drift_pp": -8.0,
+        "status": "under",
+        "color": "#eab308"
+      },
+      {
+        "topic": "주식",
+        "target": 0.0,
+        "current": 0.0,
+        "drift_pp": 0.0,
+        "status": "ok",
+        "color": "#0ca678"
+      }
+    ],
+    "suggest": "신규 자금 배정 우선: 금(-8.0%p) → 현금(-5.9%p) · 초과: 코인(+13.9%p)"
+  },
+  "updated_at": "2026-06-17T14:54:08.472196+00:00"
+}
