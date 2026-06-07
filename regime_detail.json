@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-09-05T17:37:08.723040+00:00",
+  "asof_day": "2026-09-04",
+  "close": 79660.77,
+  "sma20": 75625.95,
+  "sma50": 68814.75,
+  "close_vs_sma20_pct": 5.335,
+  "sma20_vs_sma50_pct": 9.898,
+  "days_close_above_sma20": 19,
+  "gap_trend_5d": [
+    7.2103,
+    7.7611,
+    8.3881,
+    9.196,
+    9.8979
+  ],
+  "label": "bullish",
+  "neutral_type": "n/a",
+  "est_days_to_cross": null
+}
