@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-10-24T21:36:10.061985+00:00",
+  "asof_day": "2026-10-23",
+  "close": 81189.43,
+  "sma20": 82907.76,
+  "sma50": 81822.56,
+  "close_vs_sma20_pct": -2.073,
+  "sma20_vs_sma50_pct": 1.326,
+  "days_close_above_sma20": 0,
+  "gap_trend_5d": [
+    2.1952,
+    2.0473,
+    1.8331,
+    1.5421,
+    1.3263
+  ],
+  "label": "neutral",
+  "neutral_type": "death_cross_pending",
+  "est_days_to_cross": 6.1
+}
