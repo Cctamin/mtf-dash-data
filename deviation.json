@@ -1,0 +1,64 @@
+{
+  "baseline_source": "docs/phase5_ablation_2026-07.md — (c) 판정 168봉(7일)+보유 42봉(42h), none, 현실비용(왕복 10bps + 실 펀딩) + 방향 레짐 게이트(bullish→롱만/bearish→숏만/neutral→flat). 1h fixture real_btc_1h_full.csv(2025-07-07~2026-06-06, 강한 하락 단일레짐). LIVE 1h 봇 활성 구성(--regime-gate)과 동일 개념.",
+  "direction": {
+    "binom_p": 0.1602,
+    "ci95": [
+      0.4171,
+      0.8482
+    ],
+    "expected_short_share": 0.8267,
+    "live_short_share": 0.6667,
+    "long_count": 5,
+    "sample_size": 15,
+    "short_count": 10,
+    "status": "ok"
+  },
+  "frequency": {
+    "ci95": [
+      0.97,
+      2.6689
+    ],
+    "expected_trades_per_week": 1.58,
+    "live_trades_per_week": 1.609,
+    "ratio": 1.0183,
+    "sample_size": 15,
+    "span_weeks": 9.3227,
+    "status": "ok"
+  },
+  "generated_at": "2026-08-08T17:12:52Z",
+  "overall_status": "ok",
+  "per_trade_return": {
+    "expected_per_trade_return_pct": 0.344,
+    "live_per_trade_return_pct": -0.5502,
+    "note": "비교 참고용(비율만, 절대금액 미노출). 표본 소규모 시 분산 큼.",
+    "sample_size": 15
+  },
+  "sample": {
+    "min_for_reassessment": 30,
+    "sufficient": false,
+    "trades": 15
+  },
+  "schema": "live_deviation.v1",
+  "slippage": {
+    "assumed_bps_per_side": 5.0,
+    "mean_bps": 0.219,
+    "median_bps": 0.0,
+    "note": "adverse-positive: 신호가 대비 불리한 체결이 양수(bps)",
+    "sample_size": 18,
+    "status": "ok"
+  },
+  "timeframe": "1h",
+  "win_rate": {
+    "binom_p": 0.197,
+    "ci95": [
+      0.1518,
+      0.5829
+    ],
+    "expected_win_rate": 0.52,
+    "live_win_rate": 0.3333,
+    "losses": 10,
+    "sample_size": 15,
+    "status": "ok",
+    "wins": 5
+  }
+}
